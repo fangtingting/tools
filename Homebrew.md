@@ -1,4 +1,4 @@
-### Homebrew
+## Homebrew
 
 1、安装homebrew：[http://brew.sh](http://brew.sh)
 

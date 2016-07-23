@@ -1,4 +1,4 @@
-### 安装Sublime Text
+## 安装Sublime Text
 1、下载地址：[http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
 2、安装Package Control(Sublime Text下View -->Show Console输入)：[https://packagecontrol.io/installation](https://packagecontrol.io/installation)
@@ -6,7 +6,7 @@
 安装插件快捷键：Ctrl ／ Cmd ＋ P
 
 
-### 插件推荐
+## 插件推荐
 
 1、Emmet：快速编写 HTML/CSS 代码的方案
 
@@ -26,7 +26,7 @@
 
 9、Tag：HTML／XML标签缩进、补全和校验
 
-### sublime text配置
+## sublime text配置
 
 1、Preference > Key binding - user
 
@@ -40,7 +40,7 @@
 
 >  "translate_tabs_to_spaces": true
 
-### sublime text解决linux无法输入中文问题
+## sublime text解决linux无法输入中文问题
 
 1、安装输入法：[http://pinyin.sogou.com/linux/](http://pinyin.sogou.com/linux/)
 
