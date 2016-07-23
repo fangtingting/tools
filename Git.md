@@ -1,6 +1,6 @@
 ## 安装Git
 
-1、[Git下载地址](https://git-scm.com/download/)
+1、Git下载地址：[https://git-scm.com/download/](https://git-scm.com/download/)
 
 	$ sudo apt-get install git
 

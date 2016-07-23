@@ -1,12 +1,12 @@
-### Homebrew安装
+### Homebrew
 
-[http://brew.sh](http://brew.sh)
+1、安装homebrew：[http://brew.sh](http://brew.sh)
 
-### Homebrew安装mysql
+2、安装mysql
 
-1、安装：brew install mysql
+> 安装：brew install mysql
 
-2、开启mysql：mysql.start server
+> 开启mysql：mysql.start server
 
-3、使用mysql配置脚本，根据提示设置密码：/usr/local/opt/mysql/bin/mysql_secure_installation //mysql 提供的配置向导
+> 使用mysql配置脚本，根据提示设置密码：/usr/local/opt/mysql/bin/mysql_secure_installation //mysql 提供的配置向导
 

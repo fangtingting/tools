@@ -1,9 +1,7 @@
 ### 安装Sublime Text
 1、下载地址：[http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 
-2、安装Package Control(Sublime Text下View -->Show Console输入)
-
-[https://packagecontrol.io/installation](https://packagecontrol.io/installation)
+2、安装Package Control(Sublime Text下View -->Show Console输入)：[https://packagecontrol.io/installation](https://packagecontrol.io/installation)
 
 安装插件快捷键：Ctrl ／ Cmd ＋ P
 
@@ -44,18 +42,18 @@
 
 ### sublime text解决linux无法输入中文问题
 
-1、[安装输入法](http://pinyin.sogou.com/linux/)
+1、安装输入法：[http://pinyin.sogou.com/linux/](http://pinyin.sogou.com/linux/)
 
 2、保存代码到sublime_imfix.c里
 
-	/*
+    /*
     sublime-imfix.c
     Use LD_PRELOAD to interpose some function to fix sublime input method support for linux.
     By Cjacker Huang <jianzhong.huang at i-soft.com.cn>
 
     gcc -shared -o libsublime-imfix.so sublime_imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
     LD_PRELOAD=./libsublime-imfix.so sublime_text
-  */
+    */
     #include <gtk/gtk.h>
     #include <gdk/gdkx.h>
     typedef GdkSegment GdkRegionBox;
