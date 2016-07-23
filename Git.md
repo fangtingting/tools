@@ -4,7 +4,7 @@
 
 	$ sudo apt-get install git
 
-2、[Git-Book-Online](https://git-scm.com/book/zh/v2)
+2、Git-Book-Online：[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2)
 
 3、Git图片原理解析
 
