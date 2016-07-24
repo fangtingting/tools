@@ -3,11 +3,12 @@
 
 2、安装Package Control(Sublime Text下View -->Show Console输入)：[https://packagecontrol.io/installation](https://packagecontrol.io/installation)
 
-安装插件快捷键：Ctrl ／ Cmd ＋ P
+安装插件快捷键：Ctrl ／ Cmd ＋ Shift + P
 
 3、mac版注册破解
 
 —– BEGIN LICENSE —–
+
 Ryan Clark
 Single User License
 EA7E-812479
@@ -19,6 +20,7 @@ D304FA8D B1B4F0AF 8A76C7BA 0FA94D55
 349B1179 A996F826 90CDB73C 24D41245
 FD032C30 AD5E7241 4EAA66ED 167D91FB
 55896B16 EA125C81 F550AF6B A6820916
+
 —— END LICENSE ——
 
 
@@ -42,6 +44,8 @@ FD032C30 AD5E7241 4EAA66ED 167D91FB
 
 9、Tag：HTML／XML标签缩进、补全和校验
 
+10、Color Highlighter：可以将 View 中的表示颜色的16进制的值显示出对应的颜色
+
 ## sublime text配置
 
 1、Preference > Key binding - user
@@ -52,9 +56,19 @@ FD032C30 AD5E7241 4EAA66ED 167D91FB
 
 2、Preference > Settings - User
 
->   "tab_size": 2
+> "tab_size": 2
 
->  "translate_tabs_to_spaces": true
+> "translate_tabs_to_spaces": true
+
+> "font_face": "Monaco",  // 指定字体
+    
+> "font_size": 12,       // 指定字体大小
+
+> "auto_complete_commit_on_tab": true, // 通过 tab 完成自动补全
+
+> // 通过 Package Control 安装的 RailsCasts Theme   
+> "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme", 
+
 
 ## sublime text解决linux无法输入中文问题
 
