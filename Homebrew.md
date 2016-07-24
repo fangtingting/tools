@@ -42,3 +42,7 @@
 
 6、Nginx官方文档：[https://www.nginx.com/resources/wiki/start/](https://www.nginx.com/resources/wiki/start/)
 
+## mac部署rails遇到的问题
+
+1、nokogiri安装问题：[http://www.nokogiri.org/tutorials/installing_nokogiri.html](http://www.nokogiri.org/tutorials/installing_nokogiri.html)
+
