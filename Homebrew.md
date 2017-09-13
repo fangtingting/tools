@@ -104,7 +104,9 @@ REACH =
 )
 )
 
-export TNS_ADMIN=$ORACLE_BASE/admin/network
-/etc/profile
+/etc/profile文件里加入tnsnames.ora所在目录
+
+export TNS_ADMIN=/admin/network
+
 
 
