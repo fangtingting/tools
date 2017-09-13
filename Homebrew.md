@@ -108,5 +108,6 @@ REACH =
 
 export TNS_ADMIN=/admin/network
 
+> source /etc/profile
 
 
