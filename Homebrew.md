@@ -45,6 +45,7 @@
 7、Mac下安装Passenger以及Nginx配置
 
 https://www.phusionpassenger.com/library/install/nginx/install/oss/osx/
+
 这个目录下放所有的nginx配置：/usr/local/etc/nginx/servers/
 
 archcy文件
