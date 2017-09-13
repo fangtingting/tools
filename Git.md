@@ -112,6 +112,21 @@
 
 > 要忽略指定模式以外的文件或目录，可以在模式前加上惊叹号（!）取反。
 
+## mac下使用bash-completion进行git命令自动补全
+
+	$ brew install bash-completion
+
+	$ brew info bash-completion
+
+	按照提示将插件输出内容加入~/.bash_profile
+	[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+	$ cd /usr/local/opt/bash-completion/etc/bash_completion.d
+	$ curl -L -O https://raw.github.com/git/git/master/contrib/completion/git-completion.bash
+	$ brew unlink bash-completion
+	$ brew link bash-completion
+
+
 
 
 
