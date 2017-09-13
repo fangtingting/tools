@@ -104,10 +104,10 @@ REACH =
 )
 )
 
-/etc/profile文件里加入tnsnames.ora所在目录
+~/.bash_profile 文件里加入tnsnames.ora所在目录
 
 export TNS_ADMIN=/admin/network
 
-> source /etc/profile
+> source ~/.bash_profile
 
 
