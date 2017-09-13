@@ -12,12 +12,29 @@
 npm config set registry https://registry.npm.taobao.org
 
 ```
+``` bash
+
+ # 全局安装vue开发环境
+ sudo npm install -g cordova
+ sudo npm install -g vue
+ sudo npm install -g vue-cli（官方命令行工具，可用于快速搭建大型单页应用）
+ 
+ # cordova创建项目跟vue创建项目相结合就是后期合成的vue-dova项目
+ (cordova create hello com.example.hello HelloWorld)
+ (vue init webpack my-project)
+ https://github.com/centrual/cordova-template-framework7-vue-webpack（根据这个模版改造项目，文件简介）
+ 
+```
+``` bash
+
+ # 全局安装cordova
+ sudo npm install -g cordova
+ 
+```
 
 ``` bash
 # install dependencies
 npm install
-
-npm install -g cordova  # 安装cordova至全局
 
 cordova platform add ios android browser  # 安装不同的驱动
 
