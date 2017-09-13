@@ -42,6 +42,28 @@
 
 6、Nginx官方文档：[https://www.nginx.com/resources/wiki/start/](https://www.nginx.com/resources/wiki/start/)
 
+7、Mac下安装Passenger以及Nginx配置
+
+https://www.phusionpassenger.com/library/install/nginx/install/oss/osx/
+这个目录下放所有的nginx配置：/usr/local/etc/nginx/servers/
+
+archcy文件
+    
+    server {
+        listen       80;
+        server_name  local.archcy.com;
+        location / {
+          proxy_pass http://127.0.0.1:5004;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header Host $http_host;
+        }
+      location ~ .*\.(jpg|png|gif|bmp|js|css|xml)?$ {
+       #root /home/brucewu/archcy.com/public/images/;
+         proxy_pass  http://www.archcy.com;
+      }
+    }
+
+
 ## mac部署rails遇到的问题
 
 1、nokogiri安装问题：[http://www.nokogiri.org/tutorials/installing_nokogiri.html](http://www.nokogiri.org/tutorials/installing_nokogiri.html)
