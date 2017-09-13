@@ -72,3 +72,39 @@ archcy文件
 ## mac安转oracle驱动
 https://github.com/InstantClientTap/homebrew-instantclient
 
+tnsnames.ora 文件配置
+
+WWW =
+(DESCRIPTION =
+(ADDRESS_LIST =
+(ADDRESS = (PROTOCOL = TCP)(HOST = 172.16.0.40)(PORT = 1521))
+)
+(CONNECT_DATA =
+(SERVICE_NAME = reach)
+)
+)
+
+PL =
+(DESCRIPTION =
+(ADDRESS_LIST =
+(ADDRESS = (PROTOCOL = TCP)(HOST = 172.16.0.40)(PORT = 1521))
+)
+(CONNECT_DATA =
+(SERVICE_NAME = reach)
+)
+)
+
+REACH =
+(DESCRIPTION =
+(ADDRESS_LIST =
+(ADDRESS = (PROTOCOL = TCP)(HOST = 172.16.0.40)(PORT = 1521))
+)
+(CONNECT_DATA =
+(SERVICE_NAME = reach)
+)
+)
+
+export TNS_ADMIN=$ORACLE_BASE/admin/network
+/etc/profile
+
+
