@@ -69,3 +69,6 @@ archcy文件
 
 1、nokogiri安装问题：[http://www.nokogiri.org/tutorials/installing_nokogiri.html](http://www.nokogiri.org/tutorials/installing_nokogiri.html)
 
+## mac安转oracle驱动
+https://github.com/InstantClientTap/homebrew-instantclient
+
