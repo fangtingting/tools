@@ -18,8 +18,10 @@ npm config set registry https://registry.npm.taobao.org
  sudo npm install -g cordova
  sudo npm install -g vue
  sudo npm install -g vue-cli（官方命令行工具，可用于快速搭建大型单页应用）
- sudo npm install -g framework7
- sudo npm install framework7-vue
+ # 安装一些vue配套
+ npm install -g framework7
+ npm install vue-resource
+ npm install framework7-vue
  
  # cordova创建项目跟vue创建项目相
  (cordova create hello com.example.hello HelloWorld)
