@@ -19,7 +19,8 @@ npm config set registry https://registry.npm.taobao.org
  sudo npm install -g vue
  sudo npm install -g vue-cli（官方命令行工具，可用于快速搭建大型单页应用）
  # 安装一些vue配套
- npm install -g framework7
+ npm install vue-router
+ npm install framework7
  npm install vue-resource
  npm install framework7-vue
  
