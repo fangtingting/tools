@@ -23,6 +23,7 @@ npm config set registry https://registry.npm.taobao.org
  npm install framework7
  npm install vue-resource
  npm install framework7-vue
+ npm install vue-router
  
  # cordova创建项目跟vue创建项目相
  (cordova create hello com.example.hello HelloWorld)
