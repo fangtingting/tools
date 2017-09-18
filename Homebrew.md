@@ -110,4 +110,10 @@ export TNS_ADMIN=/admin/network
 
 > source ~/.bash_profile
 
+## brew安装imagemagick（低版本）
+  
+    brew install imagemagick@6
+    
+    C_INCLUDE_PATH=/usr/local/Cellar/imagemagick@6/6.9.9-12/include/ImageMagick-6 PKG_CONFIG_PATH=/usr/local/Cellar/imagemagick@6/6.9.9-12/lib/pkgconfig/ gem install rmagick
+
 
