@@ -104,9 +104,17 @@ REACH =
 )
 )
 
-~/.bash_profile 文件里加入tnsnames.ora所在目录
+~/.bash_profile 文件里加入oracle环境变量
 
-export TNS_ADMIN=/admin/network
+    export ORACLE_BASE=/usr/local/oracle
+    export ORACLE_HOME=$ORACLE_BASE/product/instantclient_64/11.2.0.3.0
+    export PATH=$ORACLE_HOME/bin:$PATH
+    export TNS_ADMIN=$ORACLE_BASE/admin/network
+    export SQLPATH=$ORACLE_HOME/sqlplus/admin
+    export OCI_DIR=/usr/local/oracle/product/instantclient_64/11.2.0.3.0/lib
+    export NLS_LANG="AMERICAN_AMERICA.UTF8"
+    export GOPATH=/Users/bruce.wu/workspace_go
+    export DYLD_LIBRARY_PATH=/usr/local/oracle/product/instantclient_64/11.2.0.3.0/lib
 
 > source ~/.bash_profile
 
